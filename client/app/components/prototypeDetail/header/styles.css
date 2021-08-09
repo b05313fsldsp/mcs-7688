@@ -1,0 +1,75 @@
+.base {
+  padding-left: 9px;
+  padding-right: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hr {
+  margin-top: 0px;
+  margin-bottom: 13px; /* 20-7 */
+}
+
+.info {
+}
+
+.option {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.option button {
+  margin-left: 5px;
+  height: 32px;
+}
+
+.infoHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.infoHeader span {
+  color: #999A94;
+  margin-left: 10px;
+}
+
+.createUser {
+  margin-right: 20px;
+}
+
+.dropdownButtonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdownButtonContent > svg {
+  margin-left: 5px;
+  transform: rotate(0deg);
+  transition: transform .2s linear;
+}
+
+.dropdownOpen > svg {
+  transform: rotate(180deg);
+}
+
+.menu {
+  width: 80px;
+}
+
+.isTemplateTag {
+  background: #FEFAF4;
+  border: 1px solid #F39A1E;
+  border-radius: 3px;
+  color: #F39A1E;
+  padding: 2px 5px;
+  margin-right: 10px;
+}

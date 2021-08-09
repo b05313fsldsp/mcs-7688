@@ -1,0 +1,28 @@
+.base {
+  padding-top: 50px;
+  width: 954px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  min-height: calc(100vh - 50px);
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.noDevices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 9px;
+  /*width: 100%;*/
+  position: fixed;
+  z-index: 10px;
+  margin-left: -80px;
+  margin-top: 40px;
+  left: 50%;
+  top: 50%;
+}

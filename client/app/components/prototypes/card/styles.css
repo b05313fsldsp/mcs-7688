@@ -1,0 +1,70 @@
+.base {
+  margin-left: 9px;
+  margin-right: 9px;
+  height: 385px;
+  width: 300px;
+  margin-bottom: 18px;
+  position: relative;
+  background: #FFF;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.img{
+  height: 160px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.templateTag {
+  position: absolute;
+  width: 75px;
+  top: 125px;
+  right: 0;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100% - 160px);
+}
+
+.more{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  color: #00a1de;
+  font-size: 24px;
+}
+
+.prototypeName{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.hr {
+  margin: 0px;
+  height: 10px;
+}
+
+.menu {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

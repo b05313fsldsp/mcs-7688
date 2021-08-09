@@ -1,0 +1,17 @@
+.base{
+  padding-top: 50px;
+  width: 954px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.displayCard {
+  margin: 9px 9px 15px 9px;
+  width: 280px;
+}
+
+.dataChannelContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

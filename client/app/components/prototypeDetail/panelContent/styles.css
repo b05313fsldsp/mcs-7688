@@ -1,0 +1,33 @@
+.base {
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-bottom: 20px;
+}
+
+.panelHeaderNav {
+  height: 50px;
+  background: #FAFAFA;
+  display: flex;
+}
+
+.panelHeaderNavItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  cursor: pointer;
+}
+
+.panelHeaderNavItem:hover {
+  background-color: #FFFFFF;
+}
+
+.panelHeaderNavItemActive {
+  color: #00A1DE;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}

@@ -1,0 +1,10 @@
+.base {
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-bottom: 20px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}

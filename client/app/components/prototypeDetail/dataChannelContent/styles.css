@@ -1,0 +1,17 @@
+.noDatachannels {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.displayCard {
+  margin: 9px 9px 15px 9px;
+  width: 280px;
+}
+
+.dataChannelContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}

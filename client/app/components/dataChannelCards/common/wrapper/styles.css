@@ -1,0 +1,9 @@
+.dataChannelCard {
+  margin: 9px 9px 15px 9px;
+  width: 280px;
+}
+
+.dataChannelCard.withGraph {
+  position: relative;
+  width: 100%;
+}

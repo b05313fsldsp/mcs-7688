@@ -1,0 +1,22 @@
+.base {
+  padding-top: 50px;
+  width: 954px;
+  margin: 0 auto 30px auto;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.dialogBody {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.input {
+  min-width: 328px;
+}

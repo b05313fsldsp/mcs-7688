@@ -1,0 +1,60 @@
+.base {
+  padding-left: 9px;
+  padding-right: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hr {
+  margin-top: 0px;
+  margin-bottom: 13px; /* 20-7 */
+}
+
+.option {
+  display: flex;
+  align-items: flex-end;
+}
+
+.option button {
+  margin-left: 5px;
+  height: 32px;
+}
+
+.deviceName {
+  font-size: 22px;
+}
+
+.otherInfo {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.otherInfo > span:last-child {
+  margin-left: 20px;
+}
+
+.dropdownButtonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdownButtonContent > svg {
+  margin-left: 5px;
+  transform: rotate(0deg);
+  transition: transform .2s linear;
+}
+
+.dropdownOpen > svg {
+  transform: rotate(180deg);
+}
+
+.menu {
+  width: 80px;
+}

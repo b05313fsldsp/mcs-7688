@@ -1,0 +1,58 @@
+.base {
+  box-sizing: border-box;
+  margin-left: 9px;
+  margin-right: 9px;
+  height: 385px;
+  width: 300px;
+  margin-bottom: 18px;
+  position: relative;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.img {
+  height: 160px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 185px;
+  padding: 20px;
+}
+
+.button {
+  width: 100%;
+}
+
+.more {
+  position: absolute;
+  margin-left: 250px;
+  padding: 14px;
+}
+
+.deviceName {
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.hr {
+  margin: 0;
+}
+
+.link {
+  color: #00A1DE;
+  text-decoration: none;
+}

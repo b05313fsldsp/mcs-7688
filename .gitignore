@@ -1,0 +1,13 @@
+node_modules
+nodeBinary
+/build
+/appBuild
+client/app/build
+/out
+/nw.js-sdk
+/defaultConfigs
+/node
+cache
+
+# jest
+coverage/

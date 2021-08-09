@@ -1,0 +1,26 @@
+module.exports = {
+  type: 'object',
+  properties: {
+    userId: { type: 'string' },
+    email: { type: 'string' },
+    userName: { type: 'string' },
+    password: { type: 'string' },
+    userImage: {type: 'string'},
+    isActive: { type: 'boolean' },
+    updatedAt: { type: 'integer' },
+    createdAt: { type: 'integer' },
+    isAdmin: { type: 'boolean' },
+  },
+  required: [
+    'userId',
+    'email',
+    'password',
+    'userName',
+    'userImage',
+    'isActive',
+    'updatedAt',
+    'createdAt',
+    'isActive',
+    'isAdmin',
+  ],
+};

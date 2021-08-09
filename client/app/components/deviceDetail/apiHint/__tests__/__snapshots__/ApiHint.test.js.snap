@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handle tab clicking 1`] = `
+Object {
+  "children": "Fake Code",
+  "language": "arduino",
+}
+`;
+
+exports[`should redner <ApiHint /> 1`] = `
+<styled-components__Container>
+  <div>
+    <Heading
+      level={4}
+    >
+      helpful
+    </Heading>
+    <styled-components__StyledP>
+      example
+    </styled-components__StyledP>
+  </div>
+  <styled-components__StyledHr />
+  <styled-components__Body>
+    <styled-components__SelectWrapper>
+      datachannelName
+      <Select
+        items={
+          Array [
+            Object {
+              "children": "datachannelName",
+              "value": "datachannelId",
+            },
+          ]
+        }
+        kind="primary"
+        onChange={[Function]}
+        value="datachannelId"
+      />
+    </styled-components__SelectWrapper>
+    <div>
+      datachannelId
+      datachannelId
+    </div>
+    <div>
+      apiType
+      <styled-components__RadioGroup>
+        <span>
+          <input
+            checked={true}
+            id="upload"
+            name="upload"
+            onChange={[Function]}
+            type="radio"
+          />
+          <label
+            htmlFor="upload"
+          >
+            upload
+          </label>
+        </span>
+        <span>
+          <input
+            checked={false}
+            id="retrieve"
+            name="retrieve"
+            onChange={[Function]}
+            type="radio"
+          />
+          <label
+            htmlFor="retrieve"
+          >
+            retrieve
+          </label>
+        </span>
+      </styled-components__RadioGroup>
+    </div>
+  </styled-components__Body>
+  <div>
+    <TabItem
+      active={true}
+      color="primary"
+      onClick={[Function]}
+      value="javascript"
+    >
+      Javascript
+    </TabItem>
+    <TabItem
+      active={false}
+      color="primary"
+      onClick={[Function]}
+      value="arduino"
+    >
+      Arduino
+    </TabItem>
+    <TabItem
+      active={false}
+      color="primary"
+      onClick={[Function]}
+      value="talnet"
+    >
+      Talnet
+    </TabItem>
+  </div>
+  <styled-components__CodeWrapper>
+    <styled-components__StyledCopyButton
+      text=""
+    >
+      copy
+    </styled-components__StyledCopyButton>
+    <Code
+      language="javascript"
+    />
+  </styled-components__CodeWrapper>
+</styled-components__Container>
+`;
